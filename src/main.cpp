@@ -2,6 +2,7 @@
 #include <WiFi.h>
 #include <WebServer.h>
 #include <LittleFS.h>
+#include <nfc_driver.h>
 
 // Crear servidor web estándar
 WebServer server(80);
@@ -61,6 +62,9 @@ void setup() {
   Serial.println("   http://" + WiFi.softAPIP().toString() + "/info");
   Serial.println("📊 Conéctate al WiFi: nfc-access-control");
   Serial.println("🔑 Password: password123");
+
+  // 5. Configurar NFC
+  setupNFC();
 }
 
 void loop() {
@@ -75,6 +79,9 @@ void loop() {
     Serial.print(esp_get_free_heap_size());
     Serial.println(" bytes");
   }
+
+  // Verificar tags NFC
+  checkNFCTags();
   
   delay(10);
 }

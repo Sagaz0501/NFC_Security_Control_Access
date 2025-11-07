@@ -14,6 +14,10 @@
                 "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                 "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/LittleFS/src",
                 "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/FS/src",
+                "/home/sagaz/Documents/ESP32+NFC/NFC_Access_Control/.pio/libdeps/esp32dev/Adafruit PN532",
+                "/home/sagaz/Documents/ESP32+NFC/NFC_Access_Control/.pio/libdeps/esp32dev/Adafruit BusIO",
+                "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
+                "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                 "/home/sagaz/Documents/ESP32+NFC/NFC_Access_Control/.pio/libdeps/esp32dev/ArduinoJson/src",
                 "/home/sagaz/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                 "/home/sagaz/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
@@ -231,7 +235,6 @@
                 "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/RainMaker/src",
                 "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
                 "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src",
-                "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                 "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
                 "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src",
                 "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
@@ -239,7 +242,6 @@
                 "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
                 "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                 "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
-                "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                 ""
             ],
             "browse": {
@@ -251,6 +253,10 @@
                     "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                     "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/LittleFS/src",
                     "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/FS/src",
+                    "/home/sagaz/Documents/ESP32+NFC/NFC_Access_Control/.pio/libdeps/esp32dev/Adafruit PN532",
+                    "/home/sagaz/Documents/ESP32+NFC/NFC_Access_Control/.pio/libdeps/esp32dev/Adafruit BusIO",
+                    "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
+                    "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                     "/home/sagaz/Documents/ESP32+NFC/NFC_Access_Control/.pio/libdeps/esp32dev/ArduinoJson/src",
                     "/home/sagaz/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                     "/home/sagaz/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
@@ -468,7 +474,6 @@
                     "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/RainMaker/src",
                     "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
                     "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src",
-                    "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                     "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
                     "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src",
                     "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
@@ -476,7 +481,6 @@
                     "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
                     "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                     "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
-                    "/home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                     ""
                 ]
             },
