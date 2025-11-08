@@ -198,6 +198,7 @@
  /home/sagaz/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/nghttp/port/include/http_parser.h \
  /home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src/Uri.h \
  /home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src/detail/RequestHandler.h \
+ include/nfc_driver.h include/littleFS.h \
  /home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/LittleFS/src/LittleFS.h \
  /home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/FS/src/FS.h \
- include/nfc_driver.h
+ include/endpoints.h

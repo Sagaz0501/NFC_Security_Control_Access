@@ -142,4 +142,5 @@
  /home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src/SPI.h \
  /home/sagaz/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-spi.h \
  /home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/LittleFS/src/LittleFS.h \
- /home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/FS/src/FS.h
+ /home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/FS/src/FS.h \
+ include/littleFS.h

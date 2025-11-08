@@ -1,8 +1,9 @@
 #include <Arduino.h>
 #include <WiFi.h>
 #include <WebServer.h>
-#include <LittleFS.h>
 #include <nfc_driver.h>
+#include <littleFS.h>
+#include <endpoints.h>
 
 // Crear servidor web estándar
 WebServer server(80);
@@ -31,12 +32,8 @@ void setup() {
   Serial.println("🚀 Iniciando Sistema NFC Access Control...");
 
   // 1. Montar LittleFS
-  Serial.print("📁 Montando LittleFS... ");
-  if (!LittleFS.begin(true)) {
-    Serial.println("ERROR - Continuando sin LittleFS");
-  } else {
-    Serial.println("OK");
-  }
+
+  setupLittleFS();
 
   // 2. Iniciar WiFi en modo AP
   Serial.print("📡 Iniciando WiFi AP... ");
@@ -55,11 +52,9 @@ void setup() {
   
   // 4. Iniciar servidor
   server.begin();
+  setupNFCEndpoints(server);
   
   Serial.println("✅ Sistema listo!");
-  Serial.println("🌐 Endpoints disponibles:");
-  Serial.println("   http://" + WiFi.softAPIP().toString() + "/health");
-  Serial.println("   http://" + WiFi.softAPIP().toString() + "/info");
   Serial.println("📊 Conéctate al WiFi: nfc-access-control");
   Serial.println("🔑 Password: password123");
 
