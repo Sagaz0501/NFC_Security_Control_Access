@@ -21,7 +21,8 @@ Agrega un nuevo tag autorizado
   "name": "Nombre del tag",
   "authorized": true
 }
-GET /nfc/list
+```
+#### GET /nfc/list
 Lista todos los tags autorizados
 
 GET /nfc/scan
@@ -30,12 +31,13 @@ Escanea y devuelve UID del tag presente
 GET /health
 Estado del sistema
 
-json
+```json
 {
   "status": "ok",
   "timestamp": 12345,
   "free_heap": 295840
 }
+```
 🔌 Configuración Hardware
 Conexiones PN532:
 text
@@ -49,12 +51,12 @@ Conectar al WiFi: nfc-access-control (pass: password123)
 
 Agregar tags via API:
 
-'''
+```bash
 curl -X POST http://192.168.4.1/nfc/add \
   -H "Content-Type: application/json" \
   -d '{"uid":"c0 e9 e4 5f", "name":"Mi Tag", "authorized":true}'
 Los tags persisten después de reinicios
-'''
+```
 
 Sistema valida acceso en tiempo real
 
@@ -91,6 +93,3 @@ Backup/restore de configuración
 📅 Última actualización: Noviembre 2024
 🔗 Repositorio: https://github.com/Sagaz0501/NFC_Security_Control_Access
 
-text
-
-**¿Quieres que agregue algo más o lo actualizamos así?**
