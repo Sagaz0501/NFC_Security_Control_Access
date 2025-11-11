@@ -1,6 +1,6 @@
-.pio/build/esp32dev/lib85e/Adafruit\ BusIO/Adafruit_I2CDevice.cpp.o: \
- .pio/libdeps/esp32dev/Adafruit\ BusIO/Adafruit_I2CDevice.cpp \
- .pio/libdeps/esp32dev/Adafruit\ BusIO/Adafruit_I2CDevice.h \
+.pio/build/esp32dev/liba2b/Adafruit\ BusIO/Adafruit_BusIO_Register.cpp.o: \
+ .pio/libdeps/esp32dev/Adafruit\ BusIO/Adafruit_BusIO_Register.cpp \
+ .pio/libdeps/esp32dev/Adafruit\ BusIO/Adafruit_BusIO_Register.h \
  /home/sagaz/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
  /home/sagaz/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp_arduino_version.h \
  /home/sagaz/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/FreeRTOS.h \
@@ -135,5 +135,10 @@
  /home/sagaz/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc/esp32/spiram.h \
  /home/sagaz/.platformio/packages/framework-arduinoespressif32/cores/esp32/io_pin_remap.h \
  /home/sagaz/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
+ .pio/libdeps/esp32dev/Adafruit\ BusIO/Adafruit_GenericDevice.h \
+ .pio/libdeps/esp32dev/Adafruit\ BusIO/Adafruit_I2CDevice.h \
  /home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src/Wire.h \
- /home/sagaz/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal.h
+ /home/sagaz/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal.h \
+ .pio/libdeps/esp32dev/Adafruit\ BusIO/Adafruit_SPIDevice.h \
+ /home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src/SPI.h \
+ /home/sagaz/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-spi.h

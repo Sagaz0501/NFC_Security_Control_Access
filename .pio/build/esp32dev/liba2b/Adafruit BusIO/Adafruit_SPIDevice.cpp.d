@@ -1,4 +1,4 @@
-.pio/build/esp32dev/lib85e/Adafruit\ BusIO/Adafruit_SPIDevice.cpp.o: \
+.pio/build/esp32dev/liba2b/Adafruit\ BusIO/Adafruit_SPIDevice.cpp.o: \
  .pio/libdeps/esp32dev/Adafruit\ BusIO/Adafruit_SPIDevice.cpp \
  .pio/libdeps/esp32dev/Adafruit\ BusIO/Adafruit_SPIDevice.h \
  /home/sagaz/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \

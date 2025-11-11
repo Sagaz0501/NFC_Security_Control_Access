@@ -4,6 +4,7 @@
 #include <nfc_driver.h>
 #include <littleFS.h>
 #include <endpoints.h>
+#include <led_control.h>
 
 // Crear servidor web estándar
 WebServer server(80);
@@ -60,6 +61,10 @@ void setup() {
 
   // 5. Configurar NFC
   setupNFC();
+
+  // 6. Configurar LEDs
+  led_setup();
+  led_booting();
 }
 
 void loop() {
@@ -74,7 +79,7 @@ void loop() {
     Serial.print(esp_get_free_heap_size());
     Serial.println(" bytes");
   }
-
+  
   // Verificar tags NFC
   checkNFCTags();
   

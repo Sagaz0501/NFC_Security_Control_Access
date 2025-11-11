@@ -201,4 +201,4 @@
  include/nfc_driver.h include/littleFS.h \
  /home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/LittleFS/src/LittleFS.h \
  /home/sagaz/.platformio/packages/framework-arduinoespressif32/libraries/FS/src/FS.h \
- include/endpoints.h
+ include/endpoints.h include/led_control.h

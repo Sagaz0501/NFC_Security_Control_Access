@@ -3,6 +3,7 @@
 #include <Adafruit_PN532.h>
 #include <LittleFS.h>
 #include "littleFS.h"
+#include <led_control.h>
 
 Adafruit_PN532 nfc(21, 22);
 
@@ -25,8 +26,13 @@ void setupNFC() {
   uint32_t version = nfc.getFirmwareVersion();
   if (version) {
     Serial.println("✅ NFC detectado");
+    // Led indication for NFC detected and access granted
+    led_detection();
+    
   } else {
     Serial.println("❌ NFC no detectado");
+    // Led indication for NFC error and denied access
+    led_denied();
   }
   
   nfc.SAMConfig();
@@ -52,12 +58,15 @@ void checkNFCTags() {
     uidStr.toLowerCase();
     
     Serial.print("🏷️ Tag detectado: ");
+    led_detection();
     Serial.print(uidStr);
     
     if(isTagAuthorized(uidStr)) {
       Serial.println(" - 🔓 ACCESO CONCEDIDO");
+      led_granted();
     } else {
       Serial.println(" - 🔐 ACCESO DENEGADO");
+      led_denied();
     }
   }
 }
