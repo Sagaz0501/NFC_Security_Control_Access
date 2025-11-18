@@ -28,9 +28,9 @@
 #pragma once
 #include <Arduino.h>
 
-#define LED_RED_PIN     6
-#define LED_GREEN_PIN   7
-#define LED_WHITE_PIN   8
+#define LED_RED_PIN     4
+#define LED_GREEN_PIN   2
+#define LED_WHITE_PIN   5
 
 void led_setup();
 void led_booting();
